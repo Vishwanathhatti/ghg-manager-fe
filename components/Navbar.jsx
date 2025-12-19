@@ -118,12 +118,7 @@ const Navbar = () => {
                     </nav>
 
                     <div className="flex items-center gap-4">
-                        <Link
-                            href="/login"
-                            className="hidden md:block text-sm font-medium text-brand-slate hover:text-brand-green-start dark:text-white"
-                        >
-                            Login
-                        </Link>
+
                         <Link href="/contact" className="hidden sm:block">
                             <button className="flex h-10 cursor-pointer items-center justify-center rounded-full bg-brand-slate px-6 text-sm font-bold text-white transition-transform hover:scale-105 active:scale-95 dark:bg-primary dark:text-brand-slate">
                                 <span className="truncate">Contact Us</span>
@@ -189,12 +184,6 @@ const Navbar = () => {
 
                             {/* Mobile Actions */}
                             <div className="pt-4 space-y-2 border-t border-gray-100 dark:border-white/10">
-                                <Link
-                                    href="/login"
-                                    className="block px-4 py-3 text-sm font-medium text-center rounded-lg border border-gray-200 dark:border-white/10 text-brand-slate dark:text-white"
-                                >
-                                    Login
-                                </Link>
                                 <Link
                                     href="/contact"
                                     className="block px-4 py-3 text-sm font-bold text-center rounded-lg bg-brand-slate text-white dark:bg-primary dark:text-brand-slate"
