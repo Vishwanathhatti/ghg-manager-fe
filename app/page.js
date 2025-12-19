@@ -139,7 +139,7 @@ export default function Home() {
             <div className="absolute bottom-0 left-0 -ml-20 -mb-20 h-96 w-96 rounded-full bg-primary opacity-5 blur-3xl"></div>
             <div className="relative z-10 flex flex-col items-center">
               <h2 className="mb-6 max-w-3xl text-3xl font-bold text-white md:text-5xl">Ready to optimize your carbon strategy?</h2>
-              <p className="mb-10 max-w-2xl text-lg text-gray-300">Join over 50 leading organizations leveraging Carbon Alpha for their transition to net-zero.</p>
+              <p className="mb-10 max-w-2xl text-lg text-gray-300">Join over 50 leading organizations leveraging GHG Manager for their transition to net-zero.</p>
               <div className="flex flex-col gap-4 sm:flex-row">
                 <button className="h-12 min-w-[180px] rounded-full bg-primary px-8 text-base font-bold text-brand-slate transition-colors hover:bg-white">
                   Schedule Consultation

@@ -8,10 +8,10 @@ const Footer = () => {
                     <div className="col-span-1 md:col-span-1">
                         <div className="mb-6 flex items-center gap-2 text-brand-slate dark:text-white">
                             <span className="material-symbols-outlined text-brand-green-start">eco</span>
-                            <span className="text-lg font-bold">Carbon Alpha</span>
+                            <span className="text-lg font-bold">GHG Manager</span>
                         </div>
                         <p className="text-sm text-gray-500 dark:text-gray-400">
-                            San Francisco • London • Singapore
+                            Mumbai • Pune • Jalna
                         </p>
                         <div className="mt-6 flex gap-4">
                             <a className="text-gray-400 hover:text-brand-green-start" href="#"><span className="material-symbols-outlined">public</span></a>
@@ -46,7 +46,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="mt-12 flex flex-col items-center justify-between border-t border-gray-100 pt-8 text-sm text-gray-400 md:flex-row dark:border-white/5">
-                    <p>© 2023 Carbon Alpha. All rights reserved.</p>
+                    <p>© 2025 GHG Manager. All rights reserved.</p>
                     <p className="mt-2 md:mt-0">Design for enterprise sustainability.</p>
                 </div>
             </div>
